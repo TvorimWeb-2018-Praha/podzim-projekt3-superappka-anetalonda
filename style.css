@@ -31,3 +31,142 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 15px 30px;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.appka {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pozadi {
+    position: relative;
+    width: 960px;
+    display: flex;
+    height: 420px;
+}
+
+.poza {
+    display: flex;
+    height: 420px;
+    width: 960px;
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 420px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 550%;
+    font-weight: normal;
+    margin: 30px 0 20px 30px;
+}
+
+.slogan {
+    color: white;
+    font-size: 200%;
+    font-weight: lighter;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.telefon {
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.akce {
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.tlacitko {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 15px 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 115%;
+}
+
+.stazeni {
+    background-color: #48418e;
+}
+
+.text {
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+
+}
+
+.blok {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 30px;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #48418e;
+    font-size: 110%;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.popis {
+    text-align: center;
+    font-size: 85%;
+}
+
+.ikona {
+    text-align: center;
+    margin-top: 0; 
+}
+
+.paticka {
+    display: flex;
+    background-color: #48418e;
+    justify-content: center;
+    color: white;
+    font-size: 80%;
+}
+
+
+
